@@ -12,9 +12,6 @@ try {
 } catch (e) { /* non-critical */ }
 
 // ===== Reveal on scroll (native IntersectionObserver, no external deps) =====
-// Content is visible by default in CSS. We only hide it (js-anim-ready)
-// right here, right before we know the observer will run — so if anything
-// above throws, the page below never gets stuck invisible.
 try {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const revealEls = document.querySelectorAll('.reveal');
@@ -38,25 +35,6 @@ try {
   }
 } catch (e) {
   console.warn('Reveal animation skipped:', e);
-}
-
-// ===== Skill bar fill on view =====
-try {
-  document.querySelectorAll('.skill-group').forEach(group => {
-    const fillBars = () => group.querySelectorAll('.fill').forEach(f => f.classList.add('animate'));
-    if ('IntersectionObserver' in window) {
-      const obs = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) { fillBars(); obs.unobserve(entry.target); }
-        });
-      }, { threshold: 0.3 });
-      obs.observe(group);
-    } else {
-      fillBars();
-    }
-  });
-} catch (e) {
-  console.warn('Skill bars animation skipped:', e);
 }
 
 // ===== Animated counters =====
