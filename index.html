@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matteo Tagliavini — Developer</title>
+<meta name="description" content="Portfolio di Matteo Tagliavini, developer & ingegnere. Progetti, competenze e contatti.">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+<div class="grain"></div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">MT<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Chi sono</a></li>
+      <li><a href="#projects">Progetti</a></li>
+      <li><a href="#skills">Competenze</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Contattami</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO — statement-first, come "Impossible. Maybe." ===== -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <h1 class="hero-title reveal">
+      Costruisco <em>prodotti</em><br>
+      che funzionano <em>davvero</em>.
+    </h1>
+    <p class="hero-subtitle reveal">
+      Sono Matteo Tagliavini, developer <span class="amp">&amp;</span> ingegnere.
+      Progetto e realizzo software solido, veloce, curato in ogni dettaglio —
+      dall'architettura all'ultimo pixel.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#projects" class="btn btn-primary">Guarda i progetti</a>
+      <a href="#contact" class="btn btn-ghost">Parliamone</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span></span></div>
+</section>
+
+<!-- ===== STAT BAR — riga di numeri in stile "1+ billion registered users" ===== -->
+<section class="statbar">
+  <div class="stat-row">
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="3">0</span><span class="stat-suffix">+</span></div>
+      <span class="stat-label">anni tra studio ed esperienza</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="12">0</span><span class="stat-suffix">+</span></div>
+      <span class="stat-label">progetti realizzati</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="100">0</span><span class="stat-suffix">%</span></div>
+      <span class="stat-label">cura nei dettagli</span>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="section-head reveal">
+    <p class="tag">Chi sono</p>
+    <h2>Logica <em>e</em> cura estetica.</h2>
+  </div>
+  <div class="about-grid">
+    <div class="glass-card about-card reveal">
+      <p>
+        Sono Matteo, un developer/ingegnere convinto che un buon software debba
+        funzionare bene <em>e</em> essere bello da usare. Non separo le due cose:
+        un'interfaccia curata è parte della qualità del prodotto, non un vezzo.
+      </p>
+      <p>
+        Lavoro su interfacce moderne, animazioni misurate e codice pulito —
+        e aggiorno questo sito via via che i progetti reali prendono forma.
+      </p>
+    </div>
+    <div class="about-side">
+      <div class="glass-card mini-card reveal">
+        <h3>Focus</h3>
+        <p>Sviluppo web, UI/UX, automazione</p>
+      </div>
+      <div class="glass-card mini-card reveal">
+        <h3>Base</h3>
+        <p>Italia</p>
+      </div>
+      <div class="glass-card mini-card reveal">
+        <h3>Email</h3>
+        <p>matteotagliavini97@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS — grid stile "Products", card con meta a bullet ===== -->
+<section class="projects" id="projects">
+  <div class="section-head reveal">
+    <p class="tag">Portfolio</p>
+    <h2>Progetti <em>selezionati</em></h2>
+  </div>
+  <div class="projects-grid">
+
+    <article class="glass-card project-card reveal">
+      <div class="project-media grad-1"></div>
+      <div class="project-body">
+        <span class="project-cat">Web App</span>
+        <h3>Nome Progetto 1</h3>
+        <ul class="project-meta">
+          <li>Stack: React, Node.js, PostgreSQL</li>
+          <li>Cosa fa: breve descrizione del problema risolto</li>
+          <li>Risultato: metrica o obiettivo raggiunto</li>
+        </ul>
+        <a href="#" class="project-link">Vedi progetto →</a>
+      </div>
+    </article>
+
+    <article class="glass-card project-card reveal">
+      <div class="project-media grad-2"></div>
+      <div class="project-body">
+        <span class="project-cat">Dashboard</span>
+        <h3>Nome Progetto 2</h3>
+        <ul class="project-meta">
+          <li>Stack: Python, FastAPI, Docker</li>
+          <li>Cosa fa: breve descrizione del problema risolto</li>
+          <li>Risultato: metrica o obiettivo raggiunto</li>
+        </ul>
+        <a href="#" class="project-link">Vedi progetto →</a>
+      </div>
+    </article>
+
+    <article class="glass-card project-card reveal">
+      <div class="project-media grad-3"></div>
+      <div class="project-body">
+        <span class="project-cat">Mobile</span>
+        <h3>Nome Progetto 3</h3>
+        <ul class="project-meta">
+          <li>Stack: Flutter, Firebase</li>
+          <li>Cosa fa: breve descrizione del problema risolto</li>
+          <li>Risultato: metrica o obiettivo raggiunto</li>
+        </ul>
+        <a href="#" class="project-link">Vedi progetto →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="section-head reveal">
+    <p class="tag">Toolbox</p>
+    <h2>Competenze</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group glass-card reveal">
+      <h3>Frontend</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span>HTML/CSS</span><div class="bar"><div class="fill" style="--pct:90%"></div></div></div>
+        <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="fill" style="--pct:80%"></div></div></div>
+        <div class="skill-bar"><span>React</span><div class="bar"><div class="fill" style="--pct:70%"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3>Backend</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span>Python</span><div class="bar"><div class="fill" style="--pct:85%"></div></div></div>
+        <div class="skill-bar"><span>Node.js</span><div class="bar"><div class="fill" style="--pct:65%"></div></div></div>
+        <div class="skill-bar"><span>SQL</span><div class="bar"><div class="fill" style="--pct:75%"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3>Tools</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span>Git</span><div class="bar"><div class="fill" style="--pct:80%"></div></div></div>
+        <div class="skill-bar"><span>Docker</span><div class="bar"><div class="fill" style="--pct:60%"></div></div></div>
+        <div class="skill-bar"><span>Figma</span><div class="bar"><div class="fill" style="--pct:55%"></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="glass-card contact-card reveal">
+    <p class="tag">Contatti</p>
+    <h2>Costruiamo <em>qualcosa</em> insieme</h2>
+    <p class="contact-sub">Scrivimi per progetti, collaborazioni o solo per due chiacchiere.</p>
+    <a class="btn btn-primary big" href="mailto:matteotagliavini97@gmail.com">matteotagliavini97@gmail.com</a>
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Instagram">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Matteo Tagliavini. Costruito con cura.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
