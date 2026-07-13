@@ -1,0 +1,31 @@
+/* ============================================
+   TEMA 14 — "Tramonto"
+   Ispirato ai dark caldi alla robbowen.digital:
+   prugna profondo, accenti arancio/rosa tramonto
+   Font: Fraunces serif (titoli) + DM Sans (testo)
+   ============================================ */
+:root {
+  --bg: #231b2e;
+  --surface: #2d2338;
+  --surface-hover: #382b45;
+  --border: #443552;
+  --text: #f5edf0;
+  --text-dim: #b3a3b8;
+  --accent: #ff8f5c;
+  --accent-soft: #47301f;
+  --mint: #f06a9e;
+  --mint-soft: #45203a;
+  --chip1-bg: #47301f; --chip1-fg: #ffc09a; --chip1-border: #63422a;
+  --chip2-bg: #45203a; --chip2-fg: #f8a3c8;
+  --btn-bg: linear-gradient(90deg, #ff8f5c, #f06a9e); --btn-fg: #231b2e;
+  --nav-scrolled: rgba(35, 27, 46, 0.85);
+  --grad1: linear-gradient(135deg, #5c3a24, #3d2717);
+  --grad2: linear-gradient(135deg, #5c2a4a, #3a1a2f);
+  --grad3: linear-gradient(135deg, #2f3a5c, #1d2439);
+  --font-head: 'Fraunces', serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius: 20px;
+  --shadow: 0 4px 20px rgba(15, 8, 20, 0.4);
+  --shadow-hover: 0 16px 40px rgba(15, 8, 20, 0.6);
+}
+h1, h2, h3, h4, .logo { letter-spacing: 0; }

@@ -1,0 +1,34 @@
+/* ============================================
+   TEMA 9 — "Terminale"
+   Stile hacker/CLI: verde Matrix su nero OLED,
+   tutto monospace, zero angoli arrotondati
+   Font: IBM Plex Mono (tutto)
+   ============================================ */
+:root {
+  --bg: #050505;
+  --surface: #0b0f0b;
+  --surface-hover: #101710;
+  --border: #1f4d1f;
+  --text: #33ff00;
+  --text-dim: #2aa816;
+  --accent: #ffb000;
+  --accent-soft: #241a00;
+  --mint: #33ff00;
+  --mint-soft: #0d2405;
+  --chip1-bg: #241a00; --chip1-fg: #ffb000; --chip1-border: #4d3800;
+  --chip2-bg: #0d2405; --chip2-fg: #33ff00;
+  --btn-bg: #33ff00; --btn-fg: #050505;
+  --nav-scrolled: rgba(5, 5, 5, 0.9);
+  --grad1: linear-gradient(135deg, #0d2405, #061202);
+  --grad2: linear-gradient(135deg, #241a00, #120d00);
+  --grad3: linear-gradient(135deg, #002424, #001212);
+  --font-head: 'IBM Plex Mono', monospace;
+  --font-body: 'IBM Plex Mono', monospace;
+  --radius: 0px;
+  --shadow: none;
+  --shadow-hover: 0 0 24px rgba(51, 255, 0, 0.15);
+}
+h1, h2, h3, h4, .logo { letter-spacing: 0; }
+/* leggero glow sui titoli, firma del terminale */
+.hero-title, .section-head h2 { text-shadow: 0 0 12px rgba(51, 255, 0, 0.35); }
+.btn, .nav-cta, .social-btn, .copy-btn, .pill, .fork-label, .hero-avatar, .hero-avatar img { border-radius: 0; }

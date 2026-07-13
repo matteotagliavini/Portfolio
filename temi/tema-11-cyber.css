@@ -1,0 +1,34 @@
+/* ============================================
+   TEMA 11 — "Cyber"
+   Tech-noir: nero profondo, neon ciano + magenta,
+   glow sugli accenti
+   Font: Sora (titoli) + Space Grotesk (testo)
+   ============================================ */
+:root {
+  --bg: #0d0d12;
+  --surface: #14141c;
+  --surface-hover: #1b1b26;
+  --border: #29293a;
+  --text: #e8e8f0;
+  --text-dim: #8f8fa8;
+  --accent: #00e5ff;
+  --accent-soft: #082b30;
+  --mint: #ff2ec4;
+  --mint-soft: #33082a;
+  --chip1-bg: #082b30; --chip1-fg: #00e5ff; --chip1-border: #0e4a52;
+  --chip2-bg: #33082a; --chip2-fg: #ff6ad5;
+  --btn-bg: #00e5ff; --btn-fg: #0d0d12;
+  --nav-scrolled: rgba(13, 13, 18, 0.85);
+  --grad1: linear-gradient(135deg, #0a3a42, #082027);
+  --grad2: linear-gradient(135deg, #43103a, #260a22);
+  --grad3: linear-gradient(135deg, #2a1a4d, #170e2e);
+  --font-head: 'Sora', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 0 28px rgba(0, 229, 255, 0.18);
+}
+/* glow neon sugli elementi chiave */
+.hero-title em { text-shadow: 0 0 18px rgba(0, 229, 255, 0.55); }
+.btn-primary, .nav-cta { box-shadow: 0 0 20px rgba(0, 229, 255, 0.3); }
+.stat-suffix { text-shadow: 0 0 14px rgba(0, 229, 255, 0.5); }

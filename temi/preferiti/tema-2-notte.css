@@ -1,0 +1,27 @@
+/* ============================================
+   TEMA 2 — "Notte"
+   Dark elegante, lilla luminoso + verde smeraldo
+   Font: Sora (titoli) + Figtree (testo)
+   ============================================ */
+:root {
+  --bg: #0e0f13;
+  --surface: #16181f;
+  --surface-hover: #1d2029;
+  --border: #262933;
+  --text: #f2f3f7;
+  --text-dim: #9aa1b0;
+  --accent: #a78bfa;
+  --accent-soft: #241f3d;
+  --mint: #34d399;
+  --mint-soft: #12312a;
+  --chip1-bg: #241f3d; --chip1-fg: #c4b5fd; --chip1-border: #3b3266;
+  --chip2-bg: #12312a; --chip2-fg: #6ee7b7;
+  --btn-bg: #f2f3f7; --btn-fg: #0e0f13;
+  --nav-scrolled: rgba(14, 15, 19, 0.8);
+  --grad1: linear-gradient(135deg, #2d2653, #1b1735);
+  --grad2: linear-gradient(135deg, #123c31, #0c241e);
+  --grad3: linear-gradient(135deg, #43213a, #2a1425);
+  --font-head: 'Sora', sans-serif;
+  --shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 14px 36px rgba(0, 0, 0, 0.55);
+}

@@ -1,0 +1,35 @@
+/* ============================================
+   TEMA 12 — "Aurora"
+   Ispirato ai portfolio "gradient-driven" (jhey.dev,
+   portfolio moderni su Vercel): base chiara fredda,
+   accenti viola-ciano vividi, tocchi sfumati
+   Font: Sora (titoli) + Figtree (testo)
+   ============================================ */
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-hover: #fafbff;
+  --border: #e5e7f0;
+  --text: #17172b;
+  --text-dim: #6e7089;
+  --accent: #6d5ef2;
+  --accent-soft: #ebe8fe;
+  --mint: #0ea5b7;
+  --mint-soft: #dff5f8;
+  --chip1-bg: #ebe8fe; --chip1-fg: #4c3fc4; --chip1-border: #d9d3fc;
+  --chip2-bg: #dff5f8; --chip2-fg: #0b7285;
+  --btn-bg: linear-gradient(90deg, #6d5ef2, #0ea5b7); --btn-fg: #ffffff;
+  --nav-scrolled: rgba(246, 247, 251, 0.85);
+  --grad1: linear-gradient(135deg, #c7c0fb, #8f83f5);
+  --grad2: linear-gradient(135deg, #b5e8ef, #6fc9d6);
+  --grad3: linear-gradient(135deg, #fbc0dd, #f58fc0);
+  --font-head: 'Sora', sans-serif;
+  --radius: 18px;
+  --shadow: 0 2px 18px rgba(109, 94, 242, 0.07);
+  --shadow-hover: 0 16px 40px rgba(109, 94, 242, 0.15);
+}
+/* titolo hero con sfumatura, firma dello stile */
+.hero-title em {
+  background: linear-gradient(90deg, #6d5ef2, #0ea5b7);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}

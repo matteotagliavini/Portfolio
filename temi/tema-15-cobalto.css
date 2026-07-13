@@ -1,0 +1,32 @@
+/* ============================================
+   TEMA 15 — "Cobalto Retro"
+   Retro-pop energico alla wesbos.com: carta crema,
+   cobalto + rosso corallo, bordi decisi
+   Font: Space Grotesk (titoli) + DM Sans (testo)
+   ============================================ */
+:root {
+  --bg: #fdf8ef;
+  --surface: #ffffff;
+  --surface-hover: #fffdf7;
+  --border: #17171c;
+  --text: #17171c;
+  --text-dim: #5c5c66;
+  --accent: #2545d3;
+  --accent-soft: #e2e8fd;
+  --mint: #e6412e;
+  --mint-soft: #fde4e0;
+  --chip1-bg: #e2e8fd; --chip1-fg: #1c34a3; --chip1-border: #17171c;
+  --chip2-bg: #fde4e0; --chip2-fg: #b02a1b;
+  --btn-bg: #2545d3; --btn-fg: #ffffff;
+  --nav-scrolled: rgba(253, 248, 239, 0.9);
+  --grad1: linear-gradient(135deg, #b9c6fa, #7d95f2);
+  --grad2: linear-gradient(135deg, #fbc5bd, #f2907f);
+  --grad3: linear-gradient(135deg, #fbe3a8, #f2c95c);
+  --font-head: 'Space Grotesk', sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius: 12px;
+  --shadow: 3px 3px 0 #17171c;
+  --shadow-hover: 6px 6px 0 #2545d3;
+}
+/* bordi netti in tinta, firma retro-pop */
+.btn-primary:hover, .nav-cta:hover { box-shadow: 4px 4px 0 #e6412e; }

@@ -1,0 +1,35 @@
+/* ============================================
+   TEMA 8 — "Navy Mint"
+   Ispirato a brittanychiang.com (il portfolio
+   developer più imitato della gallery):
+   blu navy profondo + menta fluo, dettagli mono
+   Font: Space Grotesk (titoli) + Inter (testo)
+   ============================================ */
+:root {
+  --bg: #0a192f;
+  --surface: #112240;
+  --surface-hover: #1a2f52;
+  --border: #233554;
+  --text: #ccd6f6;
+  --text-dim: #8892b0;
+  --accent: #64ffda;
+  --accent-soft: #133d38;
+  --mint: #64ffda;
+  --mint-soft: #133d38;
+  --chip1-bg: #133d38; --chip1-fg: #64ffda; --chip1-border: #1e5a52;
+  --chip2-bg: #1b2f55; --chip2-fg: #82aaff;
+  --btn-bg: #64ffda; --btn-fg: #0a192f;
+  --nav-scrolled: rgba(10, 25, 47, 0.85);
+  --grad1: linear-gradient(135deg, #133d38, #0e2a26);
+  --grad2: linear-gradient(135deg, #1b2f55, #131f3a);
+  --grad3: linear-gradient(135deg, #3a2a55, #241a38);
+  --font-head: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius: 8px;
+  --shadow: 0 4px 20px rgba(2, 12, 27, 0.5);
+  --shadow-hover: 0 16px 40px rgba(2, 12, 27, 0.7);
+}
+/* dettagli in monospace, firma dello stile */
+.timeline-date, .project-cat, .tag, .fork-label, .pill {
+  font-family: 'IBM Plex Mono', monospace;
+}

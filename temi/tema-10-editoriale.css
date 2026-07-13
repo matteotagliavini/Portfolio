@@ -1,0 +1,37 @@
+/* ============================================
+   TEMA 10 — "Editoriale"
+   Stile rivista/magazine: carta chiara, titoli
+   serif ad alto contrasto, accento rosa editoriale
+   Font: Playfair Display (titoli) + Inter (testo)
+   + IBM Plex Mono per date/etichette
+   ============================================ */
+:root {
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
+  --border: #e4e4e7;
+  --text: #09090b;
+  --text-dim: #64748b;
+  --accent: #ec4899;
+  --accent-soft: #fce7f3;
+  --mint: #18181b;
+  --mint-soft: #e8ecf0;
+  --chip1-bg: #fce7f3; --chip1-fg: #9d2463; --chip1-border: #f9cfe4;
+  --chip2-bg: #e8ecf0; --chip2-fg: #3f3f46;
+  --btn-bg: #18181b; --btn-fg: #ffffff;
+  --nav-scrolled: rgba(250, 250, 250, 0.88);
+  --grad1: linear-gradient(135deg, #fce7f3, #f6c1dd);
+  --grad2: linear-gradient(135deg, #e8ecf0, #cfd8e1);
+  --grad3: linear-gradient(135deg, #fdf3d8, #f5e3a6);
+  --font-head: 'Playfair Display', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius: 4px;
+  --shadow: 0 1px 3px rgba(9, 9, 11, 0.06);
+  --shadow-hover: 0 10px 28px rgba(9, 9, 11, 0.10);
+}
+h1, h2, h3, h4, .logo { letter-spacing: -0.01em; }
+em { font-style: italic; }
+/* etichette in mono maiuscolo, cifra editoriale */
+.timeline-date, .project-cat, .tag, .fork-label {
+  font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.14em;
+}
