@@ -1,0 +1,16 @@
+/* ============================================
+   AVORIO 1 — "Corallo & Petrolio"
+   Base avorio, accento corallo caldo + verde
+   petrolio per i contrasti freddi
+   ============================================ */
+:root {
+  --accent: #e0584a;
+  --accent-soft: #fbe3df;
+  --mint: #1f7a8c;
+  --mint-soft: #ddeef2;
+  --chip1-bg: #fbe3df; --chip1-fg: #a03227; --chip1-border: #f4cdc6;
+  --chip2-bg: #ddeef2; --chip2-fg: #155e6d;
+  --grad1: linear-gradient(135deg, #fbd9d3, #f3a99e);
+  --grad2: linear-gradient(135deg, #d3e9ee, #a3ccd6);
+  --grad3: linear-gradient(135deg, #fbeed3, #f2d79b);
+}

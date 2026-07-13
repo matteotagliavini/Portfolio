@@ -7,16 +7,9 @@
 <meta name="description" content="Portfolio di Matteo Tagliavini, ingegnere R&D in robotica collaborativa e data engineering. Esperienza, pubblicazioni, competenze e contatti.">
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<div class="bg-orbs">
-  <div class="orb orb-1"></div>
-  <div class="orb orb-2"></div>
-  <div class="orb orb-3"></div>
-</div>
-<div class="grain"></div>
 
 <nav class="navbar" id="navbar">
   <div class="nav-inner">
@@ -26,11 +19,18 @@
       <li><a href="#path">Percorso</a></li>
       <li><a href="#publications">Pubblicazioni</a></li>
       <li><a href="#skills">Competenze</a></li>
+      <li><a href="#cv" class="nav-cv">CV/Resume</a></li>
     </ul>
-    <a href="#contact" class="nav-cta">Contattami</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Passa al tema scuro" aria-pressed="false">
+        <svg class="ico sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.6"/><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <svg class="ico moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a href="#contact" class="nav-cta">Contattami</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </nav>
 
@@ -50,12 +50,7 @@
       alla programmazione industriale con ABB e FANUC, costruisco soluzioni
       con impatto reale.
     </p>
-    <div class="hero-actions reveal">
-      <a href="#path" class="btn btn-primary">Il mio percorso</a>
-      <a href="#contact" class="btn btn-ghost">Parliamone</a>
-    </div>
   </div>
-  <div class="scroll-cue"><span></span></div>
 </section>
 
 <!-- ===== STAT BAR ===== -->
@@ -89,7 +84,7 @@
         Dopo la Laurea Magistrale in Ingegneria Informatica, con specializzazione
         in Data Engineering and Analytics, ho costruito un percorso ibrido tra
         dati, AI e robotica. Durante gli studi ho lavorato in un'azienda di
-        Robot System Integration — un'esperienza che mi ha tenuto sempre vicino
+        Robot System Integration. Un'esperienza che mi ha tenuto sempre vicino
         al mondo della robotica e che ha ispirato anche la mia tesi di ricerca:
         l'integrazione di un robot collaborativo con una base mobile
         omnidirezionale e lo sviluppo di un controllo in ammettenza per rendere
@@ -127,29 +122,36 @@
 
   <h3 class="path-subhead reveal">Esperienza professionale</h3>
   <div class="timeline">
-    <div class="glass-card timeline-item reveal">
-      <span class="timeline-date">Ottobre 2022 — Presente</span>
-      <h4 class="timeline-title">Programmatore R<span class="amp">&amp;</span>D <span class="timeline-org">— Ideativa Srl, Modena</span></h4>
-      <p class="timeline-desc">
-        Sviluppo e integrazione di soluzioni di robotica industriale e collaborativa
-        con brand quali ABB e FANUC. Attività di R<span class="amp">&amp;</span>D su Robotics Engineering e
-        programmazione offline per l'ottimizzazione dei processi produttivi,
-        sistemi di visione 2D/3D per manipolazione e assemblaggio. Ruolo attivo
-        nell'area Educate <span class="amp">&amp;</span> Train: creazione dell'Academy interna e definizione
-        delle roadmap tecnico-didattiche.
-      </p>
+
+    <div class="timeline-fork reveal">
+      <span class="fork-label">Ruoli in parallelo · oggi</span>
+      <div class="fork-branches">
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Ottobre 2022 — Presente</span>
+          <h4 class="timeline-title">Programmatore R<span class="amp">&amp;</span>D <span class="timeline-org">— <a class="org-link" href="https://www.ideativa.it/" target="_blank" rel="noopener">Ideativa Srl</a>, Modena</span></h4>
+          <p class="timeline-desc">
+            Sviluppo e integrazione di soluzioni di robotica industriale e collaborativa
+            con brand quali ABB e FANUC. Attività di R<span class="amp">&amp;</span>D su Robotics Engineering e
+            programmazione offline per l'ottimizzazione dei processi produttivi,
+            sistemi di visione 2D/3D per manipolazione e assemblaggio. Ruolo attivo
+            nell'area Educate <span class="amp">&amp;</span> Train: creazione dell'Academy interna e definizione
+            delle roadmap tecnico-didattiche.
+          </p>
+        </div>
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Ottobre 2022 — Presente</span>
+          <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org">— <a class="org-link" href="https://www.itsbiomedicale.it/" target="_blank" rel="noopener">Academy ITS Biomedicale</a>, Mirandola</span></h4>
+        </div>
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Marzo 2023 — Presente</span>
+          <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org">— <a class="org-link" href="https://www.ialemiliaromagna.it/" target="_blank" rel="noopener">IAL Emilia Romagna</a>, Modena</span></h4>
+        </div>
+      </div>
     </div>
-    <div class="glass-card timeline-item reveal">
-      <span class="timeline-date">Ottobre 2022 — Presente</span>
-      <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org">— Academy ITS Biomedicale, Mirandola</span></h4>
-    </div>
-    <div class="glass-card timeline-item reveal">
-      <span class="timeline-date">Marzo 2023 — Presente</span>
-      <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org">— IAL Emilia Romagna, Modena</span></h4>
-    </div>
+
     <div class="glass-card timeline-item reveal">
       <span class="timeline-date">Aprile — Luglio 2021</span>
-      <h4 class="timeline-title">Studente Tirocinante <span class="timeline-org">— Ideativa Srl, Modena</span></h4>
+      <h4 class="timeline-title">Studente Tirocinante <span class="timeline-org">— <a class="org-link" href="https://www.ideativa.it/" target="_blank" rel="noopener">Ideativa Srl</a>, Modena</span></h4>
       <p class="timeline-desc">
         Sviluppo di una soluzione pick<span class="amp">&amp;</span>place con cobot ABB YuMi integrando
         visione 3D e AI per riconoscimento componenti: creazione e training
@@ -163,7 +165,7 @@
   <div class="timeline">
     <div class="glass-card timeline-item reveal">
       <span class="timeline-date">2021 — 2025</span>
-      <h4 class="timeline-title">Laurea Magistrale in Data Engineering and Analytics <span class="timeline-org">— Unimore, Dip. Ingegneria "Enzo Ferrari"</span></h4>
+      <h4 class="timeline-title">Laurea Magistrale in Data Engineering and Analytics <span class="timeline-org">— UNIMORE, Dip. Ingegneria "Enzo Ferrari"</span></h4>
       <p class="timeline-desc">
         Tesi: Interazione fisica Uomo-Robot mobile per il trasporto collaborativo.
         Voto: 110/110 — conseguita il 16/07/2025.
@@ -171,7 +173,7 @@
     </div>
     <div class="glass-card timeline-item reveal">
       <span class="timeline-date">2016 — 2021</span>
-      <h4 class="timeline-title">Laurea Triennale in Ingegneria Informatica <span class="timeline-org">— Unimore, Dip. Ingegneria "Enzo Ferrari"</span></h4>
+      <h4 class="timeline-title">Laurea Triennale in Ingegneria Informatica <span class="timeline-org">— UNIMORE, Dip. Ingegneria "Enzo Ferrari"</span></h4>
       <p class="timeline-desc">
         Tesi: Implementazione di una soluzione robotizzata di prelievo componenti
         mediante sistema di visione e integrazione di algoritmi di intelligenza
@@ -196,28 +198,28 @@
     <article class="glass-card project-card reveal">
       <div class="project-media grad-1"></div>
       <div class="project-body">
-        <span class="project-cat">MDPI · Agosto 2023</span>
+        <span class="project-cat">Articolo su rivista · MDPI · Agosto 2023</span>
         <h3>Online Motion Planning for Safe Human–Robot Cooperation Using B-Splines and Hidden Markov Models</h3>
         <ul class="project-meta">
           <li>Autori: G. Braglia, M. Tagliavini, F. Pini, L. Biagiotti</li>
           <li>Algoritmo di motion planning online per cooperazione uomo–robot sicura</li>
           <li>Validazione sperimentale su cobot Franka Emika Panda</li>
         </ul>
-        <a href="#" class="project-link">Leggi l'articolo →</a>
+        <a href="https://www.mdpi.com/2218-6581/12/4/118" class="project-link" target="_blank" rel="noopener">Leggi l'articolo →</a>
       </div>
     </article>
 
     <article class="glass-card project-card reveal">
       <div class="project-media grad-2"></div>
       <div class="project-body">
-        <span class="project-cat">IEEE/RSJ IROS · Settembre 2026</span>
+        <span class="project-cat">Conferenza IROS IEEE/RSJ · Settembre 2026</span>
         <h3>A Micro-Macro Manipulation Framework for Human-Mobile Robot Co-Manipulation Tasks</h3>
         <ul class="project-meta">
           <li>Autori: D. Tebaldi, M. Tagliavini, F. Pini, L. Biagiotti</li>
           <li>Strategia di controllo micro/macro per la co-manipolazione uomo–robot mobile</li>
           <li>Benefici su consumo energetico, sforzo umano e tempo di esecuzione</li>
         </ul>
-        <a href="#" class="project-link">Leggi l'articolo →</a>
+        <span class="project-link pending">In pubblicazione — link a breve</span>
       </div>
     </article>
 
@@ -295,16 +297,44 @@
     <p class="tag">Contatti</p>
     <h2>Costruiamo <em>qualcosa</em> insieme</h2>
     <p class="contact-sub">Scrivimi per progetti, collaborazioni o solo per due chiacchiere.</p>
-    <a class="btn btn-primary big" href="mailto:matteotagliavini97@gmail.com">matteotagliavini97@gmail.com</a>
+    <div class="email-row">
+      <a class="btn btn-primary big" href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotagliavini97@gmail.com&su=Contatto%20dal%20sito" target="_blank" rel="noopener">matteotagliavini97@gmail.com</a>
+      <button class="copy-btn" id="copyEmail" type="button" aria-label="Copia indirizzo email">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Copia</span>
+      </button>
+    </div>
     <div class="socials">
-      <a href="#" aria-label="LinkedIn">LinkedIn</a>
-      <a href="https://orcid.org/0009-0000-5312-6537" aria-label="ORCID" target="_blank" rel="noopener">ORCID</a>
+      <a class="social-btn" href="https://www.linkedin.com/in/matteo-tagliavini-09a1a71b7" target="_blank" rel="noopener" aria-label="Profilo LinkedIn">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="#0a66c2" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a class="social-btn" href="https://orcid.org/0009-0000-5312-6537" target="_blank" rel="noopener" aria-label="Profilo ORCID">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#a6ce39"/><path fill="#fff" d="M7.37 17.03h1.44V7.9H7.37v9.13zm.72-10.36a.94.94 0 1 0 0-1.88.94.94 0 0 0 0 1.88zM10.87 7.9h3.9c3.71 0 5.34 2.65 5.34 4.57 0 2.35-1.83 4.56-5.32 4.56h-3.92V7.9zm1.44 7.83h2.3c3.27 0 4.02-2.48 4.02-3.26 0-1.77-1.13-3.27-4.1-3.27h-2.22v6.53z"/></svg>
+        <span>ORCID <span class="social-id">0009-0000-5312-6537</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cv" id="cv">
+  <div class="glass-card cv-card reveal">
+    <p class="tag">CV / Resume</p>
+    <h2>Scarica il mio <em>CV</em></h2>
+    <div class="cv-row">
+      <select id="cvLang" class="cv-select" aria-label="Lingua del CV">
+        <option value="it" selected>🇮🇹 Italiano</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+      <a id="cvDownload" class="btn btn-primary" href="CV/CV_Matteo_Tagliavini.pdf" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:8px" aria-hidden="true"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg><span id="cvBtnLabel">Scarica il CV</span>
+      </a>
     </div>
   </div>
 </section>
 
 <footer class="footer">
-  <p>© <span id="year"></span> Matteo Tagliavini. Costruito con cura.</p>
+  <p>© <span id="year"></span> Matteo Tagliavini.</p>
 </footer>
 
 <script src="script.js"></script>

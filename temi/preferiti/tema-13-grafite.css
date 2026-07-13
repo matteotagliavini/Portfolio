@@ -1,0 +1,31 @@
+/* ============================================
+   TEMA 13 — "Grafite"
+   Bento/minimal moderno: grigio grafite quasi
+   monocromo, un solo accento ambra caldo
+   Font: Inter (tutto), angoli morbidi
+   ============================================ */
+:root {
+  --bg: #1a1a1e;
+  --surface: #222227;
+  --surface-hover: #2a2a30;
+  --border: #333339;
+  --text: #f0f0f2;
+  --text-dim: #9c9ca6;
+  --accent: #ffb224;
+  --accent-soft: #33260a;
+  --mint: #ffb224;
+  --mint-soft: #2b2b31;
+  --chip1-bg: #33260a; --chip1-fg: #ffcf70; --chip1-border: #4d3a10;
+  --chip2-bg: #2b2b31; --chip2-fg: #c9c9d1;
+  --btn-bg: #ffb224; --btn-fg: #1a1a1e;
+  --nav-scrolled: rgba(26, 26, 30, 0.85);
+  --grad1: linear-gradient(135deg, #3d2e0d, #262009);
+  --grad2: linear-gradient(135deg, #2e2e35, #202024);
+  --grad3: linear-gradient(135deg, #3a2a20, #241a14);
+  --font-head: 'Inter', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius: 24px;
+  --shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
+  --shadow-hover: 0 14px 34px rgba(0, 0, 0, 0.5);
+}
+h1, h2, h3, h4, .logo { letter-spacing: -0.03em; }

@@ -1,0 +1,16 @@
+/* ============================================
+   AVORIO 4 — "Vinaccia & Salvia"
+   Base avorio, bordeaux morbido + verde salvia:
+   sofisticato, quasi enologico
+   ============================================ */
+:root {
+  --accent: #a13059;
+  --accent-soft: #f7e2ea;
+  --mint: #5d7d66;
+  --mint-soft: #e4ede7;
+  --chip1-bg: #f7e2ea; --chip1-fg: #7c1f42; --chip1-border: #f0cbd9;
+  --chip2-bg: #e4ede7; --chip2-fg: #41604b;
+  --grad1: linear-gradient(135deg, #f5d8e3, #e6a9c2);
+  --grad2: linear-gradient(135deg, #dcE9e0, #b7cfbf);
+  --grad3: linear-gradient(135deg, #f3e6d0, #e0c9a1);
+}

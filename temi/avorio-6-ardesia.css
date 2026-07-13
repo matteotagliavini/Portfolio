@@ -1,0 +1,20 @@
+/* ============================================
+   AVORIO 6 — "Ardesia & Rame"
+   Avorio appena piu' freddo, blu ardesia sobrio
+   + rame caldo nei punti secondari: professionale
+   ============================================ */
+:root {
+  --bg: #f2f1ed;
+  --surface: #fbfaf8;
+  --border: #e2e1da;
+  --nav-scrolled: rgba(242, 241, 237, 0.85);
+  --accent: #51648c;
+  --accent-soft: #e6eaf2;
+  --mint: #b06e4a;
+  --mint-soft: #f3e5dc;
+  --chip1-bg: #e6eaf2; --chip1-fg: #3c4c6e; --chip1-border: #d3daea;
+  --chip2-bg: #f3e5dc; --chip2-fg: #84492c;
+  --grad1: linear-gradient(135deg, #dde3ef, #b4c0d9);
+  --grad2: linear-gradient(135deg, #f1ddd0, #ddb69d);
+  --grad3: linear-gradient(135deg, #e3ece7, #bcd2c6);
+}

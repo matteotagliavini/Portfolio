@@ -1,0 +1,16 @@
+/* ============================================
+   AVORIO 2 — "Bosco & Ambra"
+   Base avorio, verde bosco profondo + ambra
+   dorata: naturale ed elegante
+   ============================================ */
+:root {
+  --accent: #2e7d54;
+  --accent-soft: #dff0e6;
+  --mint: #b97f22;
+  --mint-soft: #f5ead3;
+  --chip1-bg: #dff0e6; --chip1-fg: #1d5c3c; --chip1-border: #c8e4d3;
+  --chip2-bg: #f5ead3; --chip2-fg: #8a5c12;
+  --grad1: linear-gradient(135deg, #d5ecdf, #a8d4bc);
+  --grad2: linear-gradient(135deg, #f3e6c8, #e3c98e);
+  --grad3: linear-gradient(135deg, #dfe9ec, #b9cdd4);
+}

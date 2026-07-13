@@ -1,0 +1,16 @@
+/* ============================================
+   AVORIO 3 — "Cobalto & Giallo"
+   Base avorio, blu cobalto deciso + giallo
+   senape: contrasto vivace ma pulito
+   ============================================ */
+:root {
+  --accent: #2d5bd1;
+  --accent-soft: #e2e9fb;
+  --mint: #d9a514;
+  --mint-soft: #f7edcd;
+  --chip1-bg: #e2e9fb; --chip1-fg: #1f3f96; --chip1-border: #cddafa;
+  --chip2-bg: #f7edcd; --chip2-fg: #93700c;
+  --grad1: linear-gradient(135deg, #d6e0fa, #a9bef3);
+  --grad2: linear-gradient(135deg, #f7ecc6, #ecd485);
+  --grad3: linear-gradient(135deg, #fbdfd6, #f3b6a4);
+}

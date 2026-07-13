@@ -1,0 +1,20 @@
+/* ============================================
+   AVORIO 5 — "Ambra & Grafite"
+   Avorio leggermente piu' caldo, ocra/ambra come
+   unico colore + grafite neutra: minimal caldo
+   ============================================ */
+:root {
+  --bg: #f4f1e8;
+  --surface: #fcfaf4;
+  --border: #e6e1d3;
+  --nav-scrolled: rgba(244, 241, 232, 0.85);
+  --accent: #c07a1e;
+  --accent-soft: #f7e8d2;
+  --mint: #3c3c46;
+  --mint-soft: #e8e8ec;
+  --chip1-bg: #f7e8d2; --chip1-fg: #8f5a12; --chip1-border: #eed9b8;
+  --chip2-bg: #e8e8ec; --chip2-fg: #3c3c46;
+  --grad1: linear-gradient(135deg, #f5e3c4, #e8c88b);
+  --grad2: linear-gradient(135deg, #e4e4ea, #c4c4cf);
+  --grad3: linear-gradient(135deg, #efe0d6, #dbbfa9);
+}
