@@ -131,8 +131,12 @@ body.dark .theme-toggle .ico { transform: translateX(23px); }
 body.dark .theme-toggle .sun { opacity: 0; }
 body.dark .theme-toggle .moon { opacity: 1; }
 .theme-toggle:hover { filter: brightness(1.05); }
-.logo { font-size: 2.5rem; font-weight: 800; color: var(--text); text-decoration: none; }
-.logo .dot { color: var(--accent); }
+.logo {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.9rem; font-weight: 600;
+  color: var(--text); text-decoration: none; letter-spacing: -0.02em;
+}
+.logo .p { color: var(--accent); }
 .nav-links { display: flex; gap: 32px; list-style: none; }
 .nav-links a {
   color: var(--text-dim); text-decoration: none; font-size: 0.95rem; font-weight: 500;
@@ -257,7 +261,12 @@ section { padding: 110px 6vw; max-width: 1200px; margin: 0 auto; position: relat
 /* ===== Skills ===== */
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
 .skill-group { padding: 30px; }
-.skill-group h3 { margin-bottom: 16px; }
+.skill-group h3 {
+  margin-bottom: 18px;
+  display: flex; align-items: center; justify-content: center; gap: 9px;
+  text-align: center;
+}
+.skill-ico { width: 20px; height: 20px; color: var(--accent); flex-shrink: 0; }
 .skill-pills { display: flex; gap: 8px; flex-wrap: wrap; }
 .pill {
   font-size: 0.82rem; padding: 6px 14px; border-radius: 999px;
