@@ -1,0 +1,18 @@
+/* ============================================
+   PREFERITO — "Avorio Lilla + Menta"
+   La palette originale del tema chiaro.
+   Per riapplicarla: copiare questi valori nel
+   blocco :root di styles.css (o collegare questo
+   file DOPO styles.css).
+   ============================================ */
+:root {
+  --accent: #7b70e2;        /* lilla */
+  --accent-soft: #edeafa;
+  --mint: #2e9d7c;          /* verde menta */
+  --mint-soft: #e2f0e9;
+  --chip1-bg: #edeafa; --chip1-fg: #4c4499; --chip1-border: #ddd7f6;
+  --chip2-bg: #e2f0e9; --chip2-fg: #1f6e57;
+  --grad1: linear-gradient(135deg, #edeafa, #d7d1f5);
+  --grad2: linear-gradient(135deg, #e2f0e9, #c9e5d8);
+  --grad3: linear-gradient(135deg, #fdeef5, #f6d5e4);
+}

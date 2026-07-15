@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matteo Tagliavini — Robotics & Data Engineer</title>
+<meta name="description" content="Portfolio di Matteo Tagliavini, ingegnere R&D in robotica collaborativa e data engineering. Esperienza, pubblicazioni, competenze e contatti.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="128x128" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo"><span class="p">&lt;</span>mt<span class="p">/&gt;</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Chi sono</a></li>
+      <li><a href="#path">Percorso</a></li>
+      <li><a href="#publications">Pubblicazioni</a></li>
+      <li><a href="#skills">Competenze</a></li>
+      <li><a href="#cv" class="nav-cv">CV/Resume</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Passa al tema scuro" aria-pressed="false">
+        <svg class="ico sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.6"/><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <svg class="ico moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a href="#contact" class="nav-cta">Contattami</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-avatar reveal">
+      <img src="foto_profilo.jpg" alt="Foto di Matteo Tagliavini" width="180" height="180">
+    </div>
+    <h1 class="hero-title reveal">
+      Ingegnere R<span class="amp">&amp;</span>D,<br>
+      <em>robotica collaborativa</em><br>
+      e <em>data engineering</em>.
+    </h1>
+    <p class="hero-subtitle reveal">
+      Sono Matteo Tagliavini, ingegnere informatico con un background magistrale 
+      incentrato su dati e robotica.
+      Mi occupo di ricerca, sviluppo e programmazione, con l'obiettivo di trasformare dati e algoritmi in 
+      soluzioni applicate ed efficienti. 
+      Credo fortemente nel valore della condivisione della conoscenza, motivo per cui affianco all'ingegneria 
+      l'attività di docente tecnico.
+    </p>
+  </div>
+</section>
+
+<!-- ===== STAT BAR ===== -->
+<section class="statbar">
+  <div class="stat-row">
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="3">0</span><span class="stat-suffix">+</span></div>
+      <span class="stat-label">anni in R<span class="amp">&amp;</span>D robotica presso Ideativa</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="110">0</span><span class="stat-suffix">/110</span></div>
+      <span class="stat-label">Laurea Magistrale, Data Engineering <span class="amp">&amp;</span> Analytics</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat reveal">
+      <div class="stat-value"><span class="stat-num" data-count="2">0</span><span class="stat-suffix dot">.</span></div>
+      <span class="stat-label">pubblicazioni scientifiche internazionali <span class="nowrap">(MDPI, IEEE IROS)</span></span>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<section class="about" id="about">
+  <div class="section-head reveal">
+    <p class="tag">Chi sono</p>
+    <h2>Dati, AI <em>e</em> robotica.</h2>
+  </div>
+  <div class="about-grid">
+    <div class="glass-card about-card reveal">
+      <p>
+        Dopo la Laurea Magistrale in Ingegneria Informatica, con specializzazione
+        in Data Engineering and Analytics, ho costruito un percorso ibrido tra
+        dati, AI e robotica. Durante gli studi ho lavorato in un'azienda di
+        Robot System Integration. Un'esperienza che mi ha tenuto sempre vicino
+        al mondo della robotica e che ha ispirato anche la mia tesi di ricerca:
+        l'integrazione di un robot collaborativo con una base mobile
+        omnidirezionale e lo sviluppo di un controllo in ammettenza per rendere
+        l'interazione uomo–robot più naturale.
+      </p>
+      <p>
+        Cerco un ambiente di lavoro stimolante e quanto più tecnologico
+        possibile, orientato alla crescita, dove poter contribuire in modo
+        concreto allo sviluppo di soluzioni e applicazioni con impatto reale.
+      </p>
+    </div>
+    <div class="about-side">
+      <div class="glass-card mini-card reveal">
+        <h3><svg class="mini-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/></svg>Focus</h3>
+        <p>Robotica collaborativa, interazione uomo-robot, data engineering</p>
+      </div>
+      <div class="glass-card mini-card reveal">
+        <h3><svg class="mini-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Base</h3>
+        <p>Sassuolo (MO), Italia</p>
+      </div>
+      <div class="glass-card mini-card reveal">
+        <h3><svg class="mini-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></svg>Email</h3>
+        <p>matteotagliavini97@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PERCORSO — Esperienza + Formazione ===== -->
+<section class="path" id="path">
+  <div class="section-head reveal">
+    <p class="tag">Percorso</p>
+    <h2>Esperienza <em>e</em> formazione</h2>
+  </div>
+
+  <h3 class="path-subhead reveal">Esperienza professionale</h3>
+  <div class="timeline">
+
+    <div class="timeline-fork reveal">
+      <span class="fork-label">Ruoli in parallelo · oggi</span>
+      <div class="fork-branches">
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Ottobre 2022 — Presente</span>
+          <h4 class="timeline-title">Programmatore R<span class="amp">&amp;</span>D <span class="timeline-org"><br><a class="org-link" href="https://www.ideativa.it/" target="_blank" rel="noopener">Ideativa Srl</a>, Modena</span></h4>
+          <p class="timeline-desc">
+            Sviluppo e integrazione di soluzioni di robotica industriale e collaborativa
+            con brand quali ABB e FANUC. Attività di R<span class="amp">&amp;</span>D su Robotics Engineering e
+            programmazione offline per l'ottimizzazione dei processi produttivi,
+            sistemi di visione 2D/3D per manipolazione e assemblaggio. Ruolo attivo
+            nell'area Education <span class="amp">&amp;</span> Train: creazione dell'Academy interna e definizione
+            delle roadmap tecnico-didattiche.
+          </p>
+        </div>
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Ottobre 2022 — Presente</span>
+          <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org"><br><a class="org-link" href="https://www.itsbiomedicale.it/" target="_blank" rel="noopener">Academy ITS Biomedicale</a>, Mirandola</span></h4>
+        </div>
+        <div class="glass-card timeline-item">
+          <span class="timeline-date">Marzo 2023 — Presente</span>
+          <h4 class="timeline-title">Docente di Robotica <span class="amp">&amp;</span> Technical Expert <span class="timeline-org"><br><a class="org-link" href="https://www.ialemiliaromagna.it/" target="_blank" rel="noopener">IAL Emilia Romagna</a>, Modena</span></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass-card timeline-item reveal">
+      <span class="timeline-date">Aprile — Luglio 2021</span>
+      <h4 class="timeline-title">Studente Tirocinante <span class="timeline-org"><br> <a class="org-link" href="https://www.ideativa.it/" target="_blank" rel="noopener">Ideativa Srl</a>, Modena</span></h4>
+      <p class="timeline-desc">
+        Sviluppo di una soluzione pick<span class="amp">&amp;</span>place con cobot ABB YuMi integrando
+        visione 3D e AI per riconoscimento componenti: creazione e training
+        dataset, calibrazione camera-robot e integrazione software in Python
+        per l'esecuzione automatizzata.
+      </p>
+    </div>
+  </div>
+
+  <h3 class="path-subhead reveal">Formazione</h3>
+  <div class="timeline">
+    <div class="glass-card timeline-item reveal">
+      <span class="timeline-date">2021 — 2025</span>
+      <h4 class="timeline-title">Laurea Magistrale in Data Engineering and Analytics <span class="timeline-org"><br>UNIMORE, Dip. Ingegneria "Enzo Ferrari"</span></h4>
+      <p class="timeline-desc">
+        Tesi: Interazione fisica Uomo-Robot mobile per il trasporto collaborativo.
+        <br>Voto: 110/110 — conseguita il 16/07/2025.
+      </p>
+    </div>
+    <div class="glass-card timeline-item reveal">
+      <span class="timeline-date">2016 — 2021</span>
+      <h4 class="timeline-title">Laurea Triennale in Ingegneria Informatica <span class="timeline-org"><br>UNIMORE, Dip. Ingegneria "Enzo Ferrari"</span></h4>
+      <p class="timeline-desc">
+        Tesi: Implementazione di una soluzione robotizzata di prelievo componenti
+        mediante sistema di visione e integrazione di algoritmi di intelligenza
+        artificiale.<br>Voto: 90/110 — conseguita il 21/10/2021.
+      </p>
+    </div>
+    <div class="glass-card timeline-item reveal">
+      <span class="timeline-date">2011 — 2016</span>
+      <h4 class="timeline-title">Liceo delle Scienze Applicate <span class="timeline-org"><br>Alessandro Volta, Sassuolo</span></h4>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PUBBLICAZIONI ===== -->
+<section class="projects" id="publications">
+  <div class="section-head reveal">
+    <p class="tag">Ricerca</p>
+    <h2>Pubblicazioni <em>scientifiche</em></h2>
+  </div>
+  <div class="projects-grid">
+
+    <article class="glass-card project-card reveal">
+      <div class="project-media grad-1"></div>
+      <div class="project-body">
+        <span class="project-cat">Articolo su rivista · MDPI · Agosto 2023</span>
+        <h3>Online Motion Planning for Safe Human–Robot Cooperation Using B-Splines and Hidden Markov Models</h3>
+        <ul class="project-meta">
+          <li>Autori: G. Braglia, M. Tagliavini, F. Pini, L. Biagiotti</li>
+          <li>Algoritmo di motion planning online per cooperazione uomo–robot sicura</li>
+          <li>Validazione sperimentale su cobot Franka Emika Panda</li>
+        </ul>
+        <a href="https://www.mdpi.com/2218-6581/12/4/118" class="project-link" target="_blank" rel="noopener">Leggi l'articolo →</a>
+      </div>
+    </article>
+
+    <article class="glass-card project-card reveal">
+      <div class="project-media grad-2"></div>
+      <div class="project-body">
+        <span class="project-cat">Conferenza IROS IEEE/RSJ · Settembre 2026</span>
+        <h3>A Micro-Macro Manipulation Framework for Human-Mobile Robot Co-Manipulation Tasks</h3>
+        <ul class="project-meta">
+          <li>Autori: D. Tebaldi, M. Tagliavini, F. Pini, L. Biagiotti</li>
+          <li>Strategia di controllo micro/macro per la co-manipolazione uomo–robot mobile</li>
+          <li>Benefici su consumo energetico, sforzo umano e tempo di esecuzione</li>
+        </ul>
+        <span class="project-link pending">In pubblicazione — link a breve</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="section-head reveal">
+    <p class="tag">Toolbox</p>
+    <h2>Competenze</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="15.5" x2="8" y2="16.5"/><line x1="16" y1="15.5" x2="16" y2="16.5"/></svg>Robotica</h3>
+      <div class="skill-pills">
+        <span class="pill">Linguaggio RAPID (ABB)</span>
+        <span class="pill">Linguaggio TP (FANUC)</span>
+        <span class="pill">FANUC RO13DL Roboguide</span>
+        <span class="pill">FANUC RO09 iR Vision</span>
+        <span class="pill">FANUC RO06 DCS</span>
+        <span class="pill">FANUC RO04 Programmazione avanzata</span>
+        <span class="pill">FANUC RO03 Programmazione base</span>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Sviluppo</h3>
+      <div class="skill-pills">
+        <span class="pill">Python</span>
+        <span class="pill">C/C++</span>
+        <span class="pill">Java</span>
+        <span class="pill">SQL</span>
+        <span class="pill">Git</span>
+        <span class="pill">Bash</span>
+        <span class="pill">LaTeX</span>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>Tools</h3>
+      <div class="skill-pills">
+        <span class="pill">VS Code</span>
+        <span class="pill">RoboStudio</span>
+        <span class="pill">RoboGuide</span>
+        <span class="pill">SQL Server Management Studio</span>
+        <span class="pill">Overleaf</span>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Lingue</h3>
+      <div class="skill-pills">
+        <span class="pill">Italiano (madrelingua)</span>
+        <span class="pill">Inglese (B2)</span>
+      </div>
+    </div>
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Soft skills</h3>
+      <div class="skill-pills">
+        <span class="pill">Teamwork</span>
+        <span class="pill">Problem solving</span>
+        <span class="pill">Ownership</span>
+        <span class="pill">Proattività</span>
+        <span class="pill">Autonomia</span>
+        <span class="pill">Adattamento</span>
+        <span class="pill">Comunicazione</span>
+      </div>
+    </div>
+    <!-- Card Certificazioni: temporaneamente nascosta, da popolare in seguito.
+         Per riattivarla, rimuovere questa riga e quella di chiusura del commento.
+    <div class="skill-group glass-card reveal">
+      <h3><svg class="skill-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>Certificazioni</h3>
+      <div class="skill-pills">
+
+      </div>
+    </div>
+    -->
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="glass-card contact-card reveal">
+    <p class="tag">Contatti</p>
+    <h2>Costruiamo <em>qualcosa</em> insieme</h2>
+    <p class="contact-sub">Scrivimi per progetti, collaborazioni o solo per due chiacchiere.</p>
+    <div class="email-row">
+      <a class="btn btn-primary big" href="https://mail.google.com/mail/?view=cm&fs=1&to=matteotagliavini97@gmail.com&su=Contatto%20dal%20sito" target="_blank" rel="noopener">matteotagliavini97@gmail.com</a>
+      <button class="copy-btn" id="copyEmail" type="button" aria-label="Copia indirizzo email">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Copia</span>
+      </button>
+    </div>
+    <div class="socials">
+      <a class="social-btn" href="https://www.linkedin.com/in/matteo-tagliavini-09a1a71b7" target="_blank" rel="noopener" aria-label="Profilo LinkedIn">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="#0a66c2" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a class="social-btn" href="https://orcid.org/0009-0000-5312-6537" target="_blank" rel="noopener" aria-label="Profilo ORCID">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#a6ce39"/><path fill="#fff" d="M7.37 17.03h1.44V7.9H7.37v9.13zm.72-10.36a.94.94 0 1 0 0-1.88.94.94 0 0 0 0 1.88zM10.87 7.9h3.9c3.71 0 5.34 2.65 5.34 4.57 0 2.35-1.83 4.56-5.32 4.56h-3.92V7.9zm1.44 7.83h2.3c3.27 0 4.02-2.48 4.02-3.26 0-1.77-1.13-3.27-4.1-3.27h-2.22v6.53z"/></svg>
+        <span>ORCID <span class="social-id">0009-0000-5312-6537</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cv" id="cv">
+  <div class="glass-card cv-card reveal">
+    <p class="tag">CV / Resume</p>
+    <h2>Scarica il mio <em>CV</em></h2>
+    <div class="cv-row">
+      <select id="cvLang" class="cv-select" aria-label="Lingua del CV">
+        <option value="it" selected>🇮🇹 Italiano</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+      <a id="cvDownload" class="btn btn-primary" href="CV/CV_Matteo_Tagliavini.pdf" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:8px" aria-hidden="true"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg><span id="cvBtnLabel">Scarica il CV</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Matteo Tagliavini.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
