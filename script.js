@@ -46,14 +46,15 @@ try {
   const animateCounter = (el) => {
     const target = parseInt(el.dataset.count, 10);
     if (Number.isNaN(target)) return;
-    let current = 0;
-    const step = Math.max(1, Math.ceil(target / 40));
-    const tick = () => {
-      current = Math.min(target, current + step);
-      el.textContent = current;
-      if (current < target) requestAnimationFrame(tick);
+    const durata = 900; // ms — stessa durata per tutti i numeri
+    const t0 = performance.now();
+    const tick = (t) => {
+      const p = Math.min(1, (t - t0) / durata);
+      const eased = 1 - Math.pow(1 - p, 3); // parte veloce, rallenta alla fine
+      el.textContent = Math.round(eased * target);
+      if (p < 1) requestAnimationFrame(tick);
     };
-    tick();
+    requestAnimationFrame(tick);
   };
 
   if ('IntersectionObserver' in window) {
