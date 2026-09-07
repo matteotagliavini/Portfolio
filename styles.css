@@ -259,9 +259,12 @@ section { padding: 110px 6vw; max-width: 1200px; margin: 0 auto; position: relat
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
 .project-card { overflow: hidden; transition: transform .35s, box-shadow .35s; }
 .project-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); }
-.project-media { height: 150px; }
-.grad-1 { background: var(--grad1); }
-.grad-2 { background: var(--grad2); }
+.project-media {
+  height: 150px; background-repeat: no-repeat; background-position: center;
+  background-size: 42% auto, cover;
+}
+.grad-1 { background-image: url('mdpi-logo.png'), var(--grad1); }
+.grad-2 { background-image: url('iros-2026-logo.png'), var(--grad2); }
 .grad-3 { background: var(--grad3); }
 .project-body { padding: 26px; }
 .project-cat { color: var(--accent); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
