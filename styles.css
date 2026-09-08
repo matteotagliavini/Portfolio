@@ -313,7 +313,6 @@ section { padding: 110px 6vw; max-width: 1200px; margin: 0 auto; position: relat
   padding: 22px 18px; border: 1px solid var(--border); border-radius: 14px;
   background: var(--surface-hover); transition: border-color .25s, transform .25s;
 }
-.cert-item:hover { border-color: var(--accent); transform: translateY(-2px); }
 .cert-badge {
   display: flex; align-items: center; justify-content: center;
   width: 38px; height: 38px; border-radius: 50%;
